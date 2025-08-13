@@ -93,7 +93,7 @@ $$
 其中$n_i \sim P_V$（非均匀分布采样），$K=5 \sim 20$
 
 - 梯度下降：
-    - 全局梯度下降（Gradient Descent）：求所有节点$u$总梯度$\displaystyle \frac{\partial \mathcal{L}}{\partial z_u}$，并迭代更新$ \displaystyle z_u \leftarrow z_u - \eta \frac{\partial \mathcal{L}}{\partial z_u}$
+    - 全局梯度下降（Gradient Descent）：求所有节点 $u$ 总梯度$\displaystyle \frac{\partial \mathcal{L}}{\partial z_u}$，并迭代更新$ \displaystyle z_u \leftarrow z_u - \eta \frac{\partial \mathcal{L}}{\partial z_u}$
     - 随机梯度下降（Stochastic Gradient Descent）：每次随机游走优化一次$\displaystyle  \frac{\partial \mathcal{L}^{(u)}}{\partial z_v}$，并迭代更新$\displaystyle z_v \leftarrow z_v - \eta \frac{\partial \mathcal{L}^{(v)}}{\partial z_v}$
 
 ## 5 Node2Vec
