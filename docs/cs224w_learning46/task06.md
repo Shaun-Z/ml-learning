@@ -77,10 +77,10 @@ r_j = \sum_{i \rightarrow j} \beta \frac{r_i}{d_i} + (1-\beta) \frac{1}{N}
 $$
 其中，$\beta$称为阻尼系数。  
     
-    可以等价改写成Google Matrix：
-    $$
-    G = \beta M + (1 - \beta) \left[ \frac{1}{N} \right]_{N \times N}
-    $$
+> 可以等价改写成Google Matrix：
+> $$
+> G = \beta M + (1 - \beta) \left[ \frac{1}{N} \right]_{N \times N}
+> $$
 
 ## 3 应用案例
 
