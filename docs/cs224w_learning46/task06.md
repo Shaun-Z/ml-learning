@@ -107,7 +107,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib as mpl
 %matplotlib inline
-plt.rcParams['font.sans-serif']=['SimHei']  # 用来正常显示中文标签  
+plt.rcParams['font.sans-serif']=['PingFang SC', 'Arial Unicode MS', 'Heiti SC', 'SimHei']  # 用来正常显示中文标签  
 plt.rcParams['axes.unicode_minus']=False  # 用来正常显示负号
 ```
 
